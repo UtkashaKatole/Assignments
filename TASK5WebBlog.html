@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            float: left;
+            display: block;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .animals-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .animal-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .animal-card img {
+            width: 100%;
+            border-radius: 8px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .animal-card h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+
+        .animal-card p {
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Animal Kingdom</h1>
+    <p>Explore the beauty of wildlife!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <!-- About Section -->
+    <section id="home">
+        <h2 class="section-title">Welcome to the Animal Gallery</h2>
+        <p>This page showcases a collection of some amazing animals from around the world. Each animal has its own unique qualities and charm. From the majestic lion to the playful dolphins, this gallery is dedicated to the beauty of wildlife.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title">Animal Gallery</h2>
+        <div class="animals-gallery">
+            <!-- Animal 1 -->
+            <div class="animal-card">
+                <img src="https://wallpapercave.com/wp/wp2034447.jpg" alt="Lion">
+                <h3>Lion</h3>
+                <p>The lion, known as the king of the jungle, is a symbol of strength and bravery.</p>
+            </div>
+            <!-- Animal 2 -->
+            <div class="animal-card">
+                <img src="https://www.pixelstalk.net/wp-content/uploads/2016/12/Baby-Elephant-Full-HD-Wallpaper.jpg" alt="Elephant">
+                <h3>Elephant</h3>
+                <p>Elephants are the largest land animals on Earth, known for their intelligence and memory.</p>
+            </div>
+            <!-- Animal 3 -->
+            <div class="animal-card">
+                <img src="https://content.assets.pressassociation.io/2018/03/08170236/55ddff0a-9d87-4c7c-b064-644e228e6e32-1366x1024.jpg" alt="Penguin">
+                <h3>Penguin</h3>
+                <p>Penguins are flightless birds known for their distinct tuxedo-like appearance and swimming ability.</p>
+            </div>
+            <!-- Animal 4 -->
+            <div class="animal-card">
+                <img src="https://1.bp.blogspot.com/-G-DpftAChuQ/UiERcMf_xeI/AAAAAAAAAZ8/0HPYvws0rus/s1600/Giraffe-pictures.JPG" alt="Giraffe">
+                <h3>Giraffe</h3>
+                <p>The giraffe, the tallest land animal, is known for its long neck and unique pattern.</p>
+            </div>
+            <!-- Animal 5 -->
+            <div class="animal-card">
+                <img src="https://www.wallpaperflare.com/static/895/397/97/sumatran-tiger-close-up-photo-dudley-zoo-wallpaper.jpg" alt="Tiger">
+                <h3>Tiger</h3>
+                <p>Tigers are powerful and elegant creatures, with beautiful striped fur that helps them blend into their environment.</p>
+            </div>
+            <!-- Animal 6 -->
+            <div class="animal-card">
+                <img src="https://images.hdqwalls.com/wallpapers/dolphin-jumping-kp.jpg" alt="Dolphin">
+                <h3>Dolphin</h3>
+                <p>Dolphins are highly intelligent marine mammals known for their playful behavior and social nature.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>If you have any questions or would like to learn more about the animals showcased on this page, feel free to get in touch with us!</p>
+        <p>Email: <a href="mailto:info@animalsgallery.com">info@animalsgallery.com</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Animal Kingdom. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

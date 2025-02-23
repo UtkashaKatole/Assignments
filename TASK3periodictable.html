@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        td, th {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            padding: 5px;
+        }
+        th {
+            background-color: #2196f3;
+            color: white;
+        }
+        .alkali {
+            background-color: #ff5722;
+            color: white;
+        }
+        .alkaline-earth {
+            background-color: #8bc34a;
+            color: white;
+        }
+        .transition {
+            background-color: #2196f3;
+            color: white;
+        }
+        .post-transition {
+            background-color: #9c27b0;
+            color: white;
+        }
+        .halogens {
+            background-color: #ff4081;
+            color: white;
+        }
+        .noble-gases {
+            background-color: #00bcd4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th>11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th>18</th>
+    </tr>
+    <!-- Row 1: Period 1 -->
+    <tr>
+        <td class="noble-gases">H<br>1</td>
+        <td class="noble-gases">He<br>2</td>
+        <td colspan="16"></td>
+    </tr>
+    <!-- Row 2: Period 2 -->
+    <tr>
+        <td class="alkali">Li<br>3</td>
+        <td class="alkaline-earth">Be<br>4</td>
+        <td class="transition">B<br>5</td>
+        <td class="transition">C<br>6</td>
+        <td class="transition">N<br>7</td>
+        <td class="transition">O<br>8</td>
+        <td class="halogens">F<br>9</td>
+        <td class="noble-gases">Ne<br>10</td>
+        <td colspan="10"></td>
+    </tr>
+    <!-- Row 3: Period 3 -->
+    <tr>
+        <td class="alkali">Na<br>11</td>
+        <td class="alkaline-earth">Mg<br>12</td>
+        <td class="transition">Al<br>13</td>
+        <td class="transition">Si<br>14</td>
+        <td class="transition">P<br>15</td>
+        <td class="transition">S<br>16</td>
+        <td class="halogens">Cl<br>17</td>
+        <td class="noble-gases">Ar<br>18</td>
+    </tr>
+    <!-- Row 4: Period 4 -->
+    <tr>
+        <td class="alkali">K<br>19</td>
+        <td class="alkaline-earth">Ca<br>20</td>
+        <td class="transition">Sc<br>21</td>
+        <td class="transition">Ti<br>22</td>
+        <td class="transition">V<br>23</td>
+        <td class="transition">Cr<br>24</td>
+        <td class="transition">Mn<br>25</td>
+        <td class="transition">Fe<br>26</td>
+        <td class="transition">Co<br>27</td>
+        <td class="transition">Ni<br>28</td>
+        <td class="transition">Cu<br>29</td>
+        <td class="transition">Zn<br>30</td>
+        <td class="post-transition">Ga<br>31</td>
+        <td class="post-transition">Ge<br>32</td>
+        <td class="post-transition">As<br>33</td>
+        <td class="post-transition">Se<br>34</td>
+        <td class="halogens">Br<br>35</td>
+        <td class="noble-gases">Kr<br>36</td>
+    </tr>
+    <!-- Row 5: Period 5 -->
+    <tr>
+        <td class="alkali">Rb<br>37</td>
+        <td class="alkaline-earth">Sr<br>38</td>
+        <td class="transition">Y<br>39</td>
+        <td class="transition">Zr<br>40</td>
+        <td class="transition">Nb<br>41</td>
+        <td class="transition">Mo<br>42</td>
+        <td class="transition">Tc<br>43</td>
+        <td class="transition">Ru<br>44</td>
+        <td class="transition">Rh<br>45</td>
+        <td class="transition">Pd<br>46</td>
+        <td class="transition">Ag<br>47</td>
+        <td class="transition">Cd<br>48</td>
+        <td class="post-transition">In<br>49</td>
+        <td class="post-transition">Sn<br>50</td>
+        <td class="post-transition">Sb<br>51</td>
+        <td class="post-transition">Te<br>52</td>
+        <td class="halogens">I<br>53</td>
+        <td class="noble-gases">Xe<br>54</td>
+    </tr>
+    <!-- Row 6: Period 6 -->
+    <tr>
+        <td class="alkali">Cs<br>55</td>
+        <td class="alkaline-earth">Ba<br>56</td>
+        <td class="transition">La<br>57</td>
+        <td class="transition">Ce<br>58</td>
+        <td class="transition">Pr<br>59</td>
+        <td class="transition">Nd<br>60</td>
+        <td class="transition">Pm<br>61</td>
+        <td class="transition">Sm<br>62</td>
+        <td class="transition">Eu<br>63</td>
+        <td class="transition">Gd<br>64</td>
+        <td class="transition">Tb<br>65</td>
+        <td class="transition">Dy<br>66</td>
+        <td class="transition">Ho<br>67</td>
+        <td class="transition">Er<br>68</td>
+        <td class="transition">Tm<br>69</td>
+        <td class="transition">Yb<br>70</td>
+        <td class="transition">Lu<br>71</td>
+        <td class="halogens">Hf<br>72</td>
+    </tr>
+</table>
+
+</body>
+</html>
